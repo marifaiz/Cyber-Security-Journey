@@ -38,7 +38,7 @@ delivery person) could read the password directly.
 
 ## Finding 3: Connected Device Count Discrepancy
 
-**Status:** Investigated and resolved — false positive
+**Status:** Investigated and resolved false positive
 **Risk:** Initially assessed as Medium; downgraded to none after investigation
 
 The router's home dashboard reported **21 Wi-Fi devices** connected, while the expected
@@ -63,7 +63,7 @@ number of household devices was **7-8** (1 laptop, remaining phones).
 5. To verify this hypothesis with evidence (rather than assumption), the router was
    rebooted to clear the stale DHCP lease table, and all household devices were asked to
    reconnect with a newly-set Wi-Fi password.
-6. Post-reboot, the device count matched the expected number (7-8), with every listed
+6. Post-reboot, the device count matched the expected number (6-7), with every listed
    device recognized and accounted for.
 
 **Conclusion:** The elevated device count was not indicative of unauthorized access. It
